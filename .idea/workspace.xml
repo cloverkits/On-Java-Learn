@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/AnImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/AnInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/ImplementingAnInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Applicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MICollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MetalWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MultipleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/BandPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/HighPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/LowPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/Waveform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/Applicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/StringProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,9 +69,9 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.AnImplementation">
-    <configuration name="AnImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.AnImplementation" />
+  <component name="RunManager" selected="Application.FilterProcessor">
+    <configuration name="Applicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Applicator" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CovariantReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.polymorphism.CovariantReturn" />
+    <configuration name="FilterProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.interfaceprocessor.FilterProcessor" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.polymorphism.*" />
+          <option name="PATTERN" value="ml.cloverkit.interfaces.interfaceprocessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.polymorphism.PolyConstructors" />
+    <configuration name="MICollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.MICollision" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.polymorphism.*" />
+          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.polymorphism.Reflect" />
+    <configuration name="MetalWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.MetalWork" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.polymorphism.*" />
+          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transmogrify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.polymorphism.Transmogrify" />
+    <configuration name="StringProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.interfaceprocessor.StringProcessor" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.polymorphism.*" />
+          <option name="PATTERN" value="ml.cloverkit.interfaces.interfaceprocessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnImplementation" />
-        <item itemvalue="Application.Reflect" />
-        <item itemvalue="Application.Transmogrify" />
-        <item itemvalue="Application.CovariantReturn" />
-        <item itemvalue="Application.PolyConstructors" />
+        <item itemvalue="Application.FilterProcessor" />
+        <item itemvalue="Application.StringProcessor" />
+        <item itemvalue="Application.Applicator" />
+        <item itemvalue="Application.MetalWork" />
+        <item itemvalue="Application.MICollision" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +164,7 @@
       <workItem from="1675859716860" duration="5947000" />
       <workItem from="1675944208539" duration="7147000" />
       <workItem from="1676030877153" duration="6856000" />
-      <workItem from="1676116851382" duration="235000" />
+      <workItem from="1676116851382" duration="5335000" />
     </task>
     <servers />
   </component>
