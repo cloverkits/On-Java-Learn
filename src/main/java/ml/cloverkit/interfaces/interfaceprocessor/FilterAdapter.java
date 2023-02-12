@@ -19,7 +19,7 @@ public class FilterAdapter implements Processor {
     }
 
     @Override
-    public Object process(Object input) {
+    public Waveform process(Object input) {
         return filter.process((Waveform) input);
     }
 }

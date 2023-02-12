@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Applicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MICollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MetalWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/MultipleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/BandPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/HighPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/LowPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/filters/Waveform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/Applicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/StringProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Adventure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/interfaceprocessor/FilterAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +56,20 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.FilterProcessor">
+  <component name="RunManager" selected="Application.Adventure">
+    <configuration name="Adventure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Adventure" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Applicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Applicator" />
       <module name="OnJava8" />
@@ -89,19 +89,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ml.cloverkit.interfaces.interfaceprocessor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MICollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.MICollision" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Adventure" />
         <item itemvalue="Application.FilterProcessor" />
         <item itemvalue="Application.StringProcessor" />
         <item itemvalue="Application.Applicator" />
         <item itemvalue="Application.MetalWork" />
-        <item itemvalue="Application.MICollision" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +151,7 @@
       <workItem from="1675859716860" duration="5947000" />
       <workItem from="1675944208539" duration="7147000" />
       <workItem from="1676030877153" duration="6856000" />
-      <workItem from="1676116851382" duration="5335000" />
+      <workItem from="1676116851382" duration="6757000" />
     </task>
     <servers />
   </component>
