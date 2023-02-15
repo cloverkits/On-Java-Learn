@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/CheckedDowncast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/PermittedSubclasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SameFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/Sealed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SealedCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SealedInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SealedPets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SealedRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/interfaces/SealedSubclasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/AnonymousConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Contents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/DotNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/DotThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Parcel9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/TestParcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Wrapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +71,18 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.PermittedSubclasses">
-    <configuration name="Factories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Factories" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ml.cloverkit.innerclasses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Parcel10">
+    <configuration name="AnonymousConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.AnonymousConstructor" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Games" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Games" />
+    <configuration name="Parcel10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.Parcel10" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermittedSubclasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.PermittedSubclasses" />
+    <configuration name="Parcel5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.Parcel5" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivateInterfaceMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.PrivateInterfaceMethod" />
+    <configuration name="Parcel8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.Parcel8" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sealed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.interfaces.Sealed" />
+    <configuration name="Parcel9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.Parcel9" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.interfaces.*" />
+          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PermittedSubclasses" />
-        <item itemvalue="Application.Sealed" />
-        <item itemvalue="Application.PrivateInterfaceMethod" />
-        <item itemvalue="Application.Games" />
-        <item itemvalue="Application.Factories" />
+        <item itemvalue="Application.Parcel10" />
+        <item itemvalue="Application.AnonymousConstructor" />
+        <item itemvalue="Application.Parcel9" />
+        <item itemvalue="Application.Parcel8" />
+        <item itemvalue="Application.Parcel5" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +174,7 @@
       <workItem from="1676116851382" duration="6757000" />
       <workItem from="1676203692949" duration="1118000" />
       <workItem from="1676205968926" duration="6266000" />
-      <workItem from="1676376513107" duration="1789000" />
+      <workItem from="1676376513107" duration="7674000" />
     </task>
     <servers />
   </component>
