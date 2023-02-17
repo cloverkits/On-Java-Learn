@@ -16,7 +16,7 @@ public class GreenhouseControls extends Controller {
 
         @Override
         public String toString() {
-            return "Light is off";
+            return "Light is on";
         }
     }
 
@@ -118,6 +118,11 @@ public class GreenhouseControls extends Controller {
         @Override
         public void action() {
             addEvent(new Bell(delayTime.toMillis()));
+        }
+
+        @Override
+        public String toString() {
+            return "Bing!";
         }
     }
 
