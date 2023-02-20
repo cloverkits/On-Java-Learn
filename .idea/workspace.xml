@@ -5,13 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/BigEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/BigEgg2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/GreenhouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/InheritInner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/LocalInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/AddingGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CrossCollectionIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CrossCollectionIteration2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ListFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/PrintingCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SimpleCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SimpleIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/ArrayShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/BasicSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/CollectionMethodDifferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/ConvertTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/CountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/CountingIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/FillMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/HTMLColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/MouseClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Nap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Null.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/OSExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/OSExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/ProcessFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Rand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Repeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/RmDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/TestRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/TimedAbort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Tuple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Tuple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Tuple4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/Tuple5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/TypeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/AtUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/ClassNameFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/TestObjectCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/TestObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/onjava/atunit/TestProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/AnonymousImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/BoundedClassReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ClassCasts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ClassInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/DynamicSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/FamilyVsExactType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/GenericClassReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/HiddenImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ID2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/InnerImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/InterfaceViolation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ModifyingPrivateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/NullRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/PetCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/PetCounter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/PetCounter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/PetCounter4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/RegisteredFactories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/SelectingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ShowMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/SimpleDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/SimpleProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/SnowRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/SweetShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/WildcardClassReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/interfacea/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/packageaccess/HiddenC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Cymric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/EgyptianMau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/ForNamePetCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Hamster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Individual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Manx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Mutt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/PetCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Pug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Rat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pets/Rodent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/toys/GenericToyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/toys/ToyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/control/GreenhouseControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/control/GreenhouseControls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +142,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Clove/IdeaProjects/OnJava8/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,17 +156,21 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clove\IdeaProjects\OnJava8\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ml.cloverkit.collections" />
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalInnerClass">
-    <configuration name="BigEgg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.BigEgg" />
+  <component name="RunManager" selected="Application.CrossCollectionIteration">
+    <configuration name="AddingGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.AddingGroups" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
+          <option name="PATTERN" value="ml.cloverkit.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.BigEgg2" />
+    <configuration name="CrossCollectionIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.CrossCollectionIteration" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
+          <option name="PATTERN" value="ml.cloverkit.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreenhouseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.GreenhouseController" />
+    <configuration name="ListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.ListFeatures" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
+          <option name="PATTERN" value="ml.cloverkit.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.InheritInner" />
+    <configuration name="PrintingCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.PrintingCollections" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
+          <option name="PATTERN" value="ml.cloverkit.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.innerclasses.LocalInnerClass" />
+    <configuration name="SimpleIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.SimpleIteration" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.innerclasses.*" />
+          <option name="PATTERN" value="ml.cloverkit.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocalInnerClass" />
-        <item itemvalue="Application.BigEgg2" />
-        <item itemvalue="Application.BigEgg" />
-        <item itemvalue="Application.InheritInner" />
-        <item itemvalue="Application.GreenhouseController" />
+        <item itemvalue="Application.CrossCollectionIteration" />
+        <item itemvalue="Application.SimpleIteration" />
+        <item itemvalue="Application.ListFeatures" />
+        <item itemvalue="Application.PrintingCollections" />
+        <item itemvalue="Application.AddingGroups" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +265,7 @@
       <workItem from="1676376513107" duration="7674000" />
       <workItem from="1676462585055" duration="8195000" />
       <workItem from="1676549993846" duration="3891000" />
+      <workItem from="1676635485649" duration="6917000" />
     </task>
     <servers />
   </component>
@@ -183,6 +283,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ml/cloverkit/innerclasses/Callbacks.java</url>
           <line>64</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ListFeatures.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
