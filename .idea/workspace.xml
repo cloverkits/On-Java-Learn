@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/BasicRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CompactConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ComposedRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CopyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/FinalFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ImplementingRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/LinkedListFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ListIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/MapOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/NestedLocalRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/NormalConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/PetMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/PlusTen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SetOfInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SetOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SetOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/SortedSetOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/StackTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/UniqueWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/UniqueWordsAplhabetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/AdapterMethodIdiom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ArrayIsNotIterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CollectionSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/InterfaceVsIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/IterableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/MultiIterableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/NonCollectionSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/PriorityQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,9 +74,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyRecord">
-    <configuration name="BasicRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.BasicRecord" />
+  <component name="RunManager" selected="Application.MultiIterableClass">
+    <configuration name="AdapterMethodIdiom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.AdapterMethodIdiom" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.CopyRecord" />
+    <configuration name="ArrayIsNotIterable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.ArrayIsNotIterable" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.MapOfList" />
+    <configuration name="IterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.IterableClass" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.PetMap" />
+    <configuration name="MultiIterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.MultiIterableClass" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusTen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.PlusTen" />
+    <configuration name="NonCollectionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.NonCollectionSequence" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyRecord" />
-        <item itemvalue="Application.PlusTen" />
-        <item itemvalue="Application.BasicRecord" />
-        <item itemvalue="Application.MapOfList" />
-        <item itemvalue="Application.PetMap" />
+        <item itemvalue="Application.MultiIterableClass" />
+        <item itemvalue="Application.AdapterMethodIdiom" />
+        <item itemvalue="Application.ArrayIsNotIterable" />
+        <item itemvalue="Application.IterableClass" />
+        <item itemvalue="Application.NonCollectionSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +176,8 @@
       <workItem from="1676462585055" duration="8195000" />
       <workItem from="1676549993846" duration="3891000" />
       <workItem from="1676635485649" duration="6917000" />
-      <workItem from="1676894769937" duration="6782000" />
+      <workItem from="1676894769937" duration="7060000" />
+      <workItem from="1676981174186" duration="5444000" />
     </task>
     <servers />
   </component>
