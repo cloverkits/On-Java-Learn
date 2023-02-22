@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/AdapterMethodIdiom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/ArrayIsNotIterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/CollectionSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/InterfaceVsIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/IterableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/MultiIterableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/NonCollectionSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/PriorityQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collections/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/FunctionAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/CtorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/IntCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/MultiUnbound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/RecursiveFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/RecursiveFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/RunnableMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Strategize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/UnboundMethodReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,13 +76,13 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiIterableClass">
-    <configuration name="AdapterMethodIdiom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.AdapterMethodIdiom" />
+  <component name="RunManager" selected="Application.FunctionAnnotation">
+    <configuration name="CtorReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.CtorReference" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collections.*" />
+          <option name="PATTERN" value="ml.cloverkit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayIsNotIterable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.ArrayIsNotIterable" />
+    <configuration name="FunctionAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.FunctionAnnotation" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collections.*" />
+          <option name="PATTERN" value="ml.cloverkit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.IterableClass" />
+    <configuration name="MultiUnbound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.MultiUnbound" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collections.*" />
+          <option name="PATTERN" value="ml.cloverkit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiIterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.MultiIterableClass" />
+    <configuration name="RunnableMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.RunnableMethodReference" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collections.*" />
+          <option name="PATTERN" value="ml.cloverkit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonCollectionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collections.NonCollectionSequence" />
+    <configuration name="UnboundMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.UnboundMethodReference" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collections.*" />
+          <option name="PATTERN" value="ml.cloverkit.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiIterableClass" />
-        <item itemvalue="Application.AdapterMethodIdiom" />
-        <item itemvalue="Application.ArrayIsNotIterable" />
-        <item itemvalue="Application.IterableClass" />
-        <item itemvalue="Application.NonCollectionSequence" />
+        <item itemvalue="Application.FunctionAnnotation" />
+        <item itemvalue="Application.CtorReference" />
+        <item itemvalue="Application.MultiUnbound" />
+        <item itemvalue="Application.UnboundMethodReference" />
+        <item itemvalue="Application.RunnableMethodReference" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +179,8 @@
       <workItem from="1676549993846" duration="3891000" />
       <workItem from="1676635485649" duration="6917000" />
       <workItem from="1676894769937" duration="7060000" />
-      <workItem from="1676981174186" duration="5444000" />
+      <workItem from="1676981174186" duration="7265000" />
+      <workItem from="1677067345982" duration="6548000" />
     </task>
     <servers />
   </component>
