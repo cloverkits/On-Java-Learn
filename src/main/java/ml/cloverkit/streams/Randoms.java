@@ -1,0 +1,15 @@
+package ml.cloverkit.streams;
+
+import java.util.Random;
+import java.util.stream.Stream;
+
+public class Randoms {
+    public static void main(String[] args) {
+        new Random(47)
+                .ints(5, 20)
+                .distinct()
+                .limit(7)
+                .sorted()
+                .forEach(System.out::println);
+    }
+}

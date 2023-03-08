@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/BiConsumerPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/ClassFunctionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/ConsumeFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/FunctionVariants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/MethodConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/ProduceFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/TransformFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/TriFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/TriFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/AnonymousClosure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Closure8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/CurriedIntAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/Curry3Args.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/CurryingAndPartials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/FunctionComposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/PredicateComposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/functional/SharedStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Randoms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,9 +83,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransformFunction">
-    <configuration name="BiConsumerPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.BiConsumerPermutations" />
+  <component name="RunManager" selected="Application.Randoms">
+    <configuration name="CurriedIntAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.CurriedIntAdd" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.MethodConversion" />
+    <configuration name="Curry3Args" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.Curry3Args" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.ProduceFunction" />
+    <configuration name="CurryingAndPartials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.CurryingAndPartials" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.TransformFunction" />
+    <configuration name="PredicateComposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.PredicateComposition" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.functional.TriFunctionTest" />
+    <configuration name="Randoms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.Randoms" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.functional.*" />
+          <option name="PATTERN" value="ml.cloverkit.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriFunctionTest" />
-        <item itemvalue="Application.TransformFunction" />
-        <item itemvalue="Application.ProduceFunction" />
-        <item itemvalue="Application.MethodConversion" />
-        <item itemvalue="Application.BiConsumerPermutations" />
+        <item itemvalue="Application.Randoms" />
+        <item itemvalue="Application.CurriedIntAdd" />
+        <item itemvalue="Application.Curry3Args" />
+        <item itemvalue="Application.CurryingAndPartials" />
+        <item itemvalue="Application.PredicateComposition" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +190,7 @@
       <workItem from="1677067345982" duration="7488000" />
       <workItem from="1677240494017" duration="3151000" />
       <workItem from="1677762510202" duration="3909000" />
-      <workItem from="1678277179514" duration="210000" />
+      <workItem from="1678277179514" duration="6835000" />
     </task>
     <servers />
   </component>
