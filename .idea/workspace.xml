@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/ArrayStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FileToWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FileToWordsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FileToWordsRegexp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FunctionMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FunctionMap2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/FunctionMap3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/MetalWork2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Peeking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/SortedComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/StreamOfRandoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/StreamOfStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/CreatingOptionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/OptionalBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/OptionalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/OptionalFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/OptionalMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Optionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/OptionalsFormEmptyStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/RandInts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/StreamOfOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/TreeSetOfWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/cloverkit/IdeaProjects/On Java/src/main/java/ml/cloverkit/streams&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/cloverkit/IdeaProjects/On Java/src/main/java/ml/cloverkit/streams",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -84,9 +82,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamOfRandoms">
-    <configuration name="FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.FlatMap" />
+  <component name="RunManager" selected="Application.TreeSetOfWords">
+    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.ForEach" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionMap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.FunctionMap2" />
+    <configuration name="OptionalFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.OptionalFlatMap" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionMap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.FunctionMap3" />
+    <configuration name="OptionalMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.OptionalMap" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfRandoms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.StreamOfRandoms" />
+    <configuration name="StreamOfOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.StreamOfOptions" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.StreamOfStreams" />
+    <configuration name="TreeSetOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.TreeSetOfWords" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamOfRandoms" />
-        <item itemvalue="Application.FlatMap" />
-        <item itemvalue="Application.StreamOfStreams" />
-        <item itemvalue="Application.FunctionMap3" />
-        <item itemvalue="Application.FunctionMap2" />
+        <item itemvalue="Application.TreeSetOfWords" />
+        <item itemvalue="Application.ForEach" />
+        <item itemvalue="Application.StreamOfOptions" />
+        <item itemvalue="Application.OptionalFlatMap" />
+        <item itemvalue="Application.OptionalMap" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +191,26 @@
       <workItem from="1677762510202" duration="3909000" />
       <workItem from="1678277179514" duration="6835000" />
       <workItem from="1681817675007" duration="7114000" />
-      <workItem from="1681992340993" duration="5350000" />
+      <workItem from="1681992340993" duration="6205000" />
+      <workItem from="1682346476454" duration="69000" />
+      <workItem from="1682352095112" duration="23000" />
+      <workItem from="1682424927210" duration="5878000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
