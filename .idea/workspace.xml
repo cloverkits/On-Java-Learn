@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/InheritingExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Informational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/LastElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/MapCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Matching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/NumericStreamInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/SelectElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/streams/SpecialCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/ExceptionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/ExtraFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/FullConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/LoggingExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/LoggingExceptions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/MultiCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/MultiCatch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/PreciseRethrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/Rethowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/RethrowNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/SameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/WhoCalled.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,27 +77,15 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ml.cloverkit.exceptions" />
       <recent name="ml.cloverkit.streams" />
       <recent name="ml.cloverkit.collections" />
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InheritingExceptions">
-    <configuration name="Informational" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.Informational" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InheritingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.InheritingExceptions" />
+  <component name="RunManager" selected="Application.RethrowNew">
+    <configuration name="ExceptionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.ExceptionMethods" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.LastElement" />
+    <configuration name="ExtraFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.ExtraFeatures" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.streams.*" />
+          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumericStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.NumericStreamInfo" />
+    <configuration name="Rethowing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.Rethowing" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.streams.*" />
+          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.streams.SelectElement" />
+    <configuration name="RethrowNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.RethrowNew" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.streams.*" />
+          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhoCalled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.WhoCalled" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InheritingExceptions" />
-        <item itemvalue="Application.NumericStreamInfo" />
-        <item itemvalue="Application.Informational" />
-        <item itemvalue="Application.LastElement" />
-        <item itemvalue="Application.SelectElement" />
+        <item itemvalue="Application.RethrowNew" />
+        <item itemvalue="Application.Rethowing" />
+        <item itemvalue="Application.WhoCalled" />
+        <item itemvalue="Application.ExceptionMethods" />
+        <item itemvalue="Application.ExtraFeatures" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,9 @@
       <workItem from="1682346476454" duration="69000" />
       <workItem from="1682352095112" duration="23000" />
       <workItem from="1682424927210" duration="6315000" />
-      <workItem from="1682511256067" duration="4945000" />
+      <workItem from="1682511256067" duration="5270000" />
+      <workItem from="1682597494865" duration="3994000" />
+      <workItem from="1682602610726" duration="1667000" />
     </task>
     <servers />
   </component>
