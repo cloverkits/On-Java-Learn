@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/ExceptionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/ExtraFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/FullConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/LoggingExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/LoggingExceptions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/MultiCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/MultiCatch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/PreciseRethrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/Rethowing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/RethrowNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/SameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/WhoCalled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/AlwaysFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/BetterNullPointerReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/DynamicFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/ExceptionSilencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/FinallyWorks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/LostMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/MultipleReturns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/NeverCaught.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/OnOffException1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/OnOffException2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/OnOffSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/StormInning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/WithFinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +85,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RethrowNew">
-    <configuration name="ExceptionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.ExceptionMethods" />
+  <component name="RunManager" selected="Application.ExceptionSilencer">
+    <configuration name="AlwaysFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.AlwaysFinally" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtraFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.ExtraFeatures" />
+    <configuration name="ExceptionSilencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.ExceptionSilencer" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rethowing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.Rethowing" />
+    <configuration name="LostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.LostMessage" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RethrowNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.RethrowNew" />
+    <configuration name="MultipleReturns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.MultipleReturns" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhoCalled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.WhoCalled" />
+    <configuration name="WithFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.WithFinally" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RethrowNew" />
-        <item itemvalue="Application.Rethowing" />
-        <item itemvalue="Application.WhoCalled" />
-        <item itemvalue="Application.ExceptionMethods" />
-        <item itemvalue="Application.ExtraFeatures" />
+        <item itemvalue="Application.ExceptionSilencer" />
+        <item itemvalue="Application.LostMessage" />
+        <item itemvalue="Application.MultipleReturns" />
+        <item itemvalue="Application.AlwaysFinally" />
+        <item itemvalue="Application.WithFinally" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +200,8 @@
       <workItem from="1682424927210" duration="6315000" />
       <workItem from="1682511256067" duration="5270000" />
       <workItem from="1682597494865" duration="3994000" />
-      <workItem from="1682602610726" duration="1667000" />
+      <workItem from="1682602610726" duration="1992000" />
+      <workItem from="1683288373370" duration="7308000" />
     </task>
     <servers />
   </component>
