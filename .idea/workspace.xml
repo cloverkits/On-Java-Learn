@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/exceptions/TurnOffChecking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/CountedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/tests/CountedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Assert1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Assert2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/CircularQueueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/GuavaAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/GuavaPreconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/LoaderAssertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/NonNullConstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/StringInverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/tests/CircularQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -75,13 +83,13 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountedListTest">
-    <configuration name="CloseExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.CloseExceptions" />
+  <component name="RunManager" selected="Application.NonNullConstruction">
+    <configuration name="GuavaAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.GuavaAssertions" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EffectivelyFinalTWR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.EffectivelyFinalTWR" />
+    <configuration name="GuavaPreconditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.GuavaPreconditions" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.Human" />
+    <configuration name="LoaderAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.LoaderAssertions" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurnOffChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.exceptions.TurnOffChecking" />
+    <configuration name="NonNullConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.NonNullConstruction" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.exceptions.*" />
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +145,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ml.cloverkit.validating.tests" />
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.tests.CountedListTest" />
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.tests.CircularQueueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CountedListTest" />
-        <item itemvalue="Application.TurnOffChecking" />
-        <item itemvalue="Application.Human" />
-        <item itemvalue="Application.EffectivelyFinalTWR" />
-        <item itemvalue="Application.CloseExceptions" />
+        <item itemvalue="Application.NonNullConstruction" />
+        <item itemvalue="Application.GuavaPreconditions" />
+        <item itemvalue="JUnit.CircularQueueTest" />
+        <item itemvalue="Application.GuavaAssertions" />
+        <item itemvalue="Application.LoaderAssertions" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +203,7 @@
       <workItem from="1682602610726" duration="1992000" />
       <workItem from="1683288373370" duration="7553000" />
       <workItem from="1683547740259" duration="7102000" />
-      <workItem from="1683634272359" duration="5135000" />
+      <workItem from="1683634272359" duration="11951000" />
     </task>
     <servers />
   </component>
