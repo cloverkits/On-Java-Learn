@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Assert1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Assert2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/CircularQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/GuavaAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/GuavaPreconditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/LoaderAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/NonNullConstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/StringInverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/tests/CircularQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/BadMicroBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/BadMicroBenchmark2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/SLF4JLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/StringInverterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +81,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NonNullConstruction">
-    <configuration name="GuavaAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.GuavaAssertions" />
+  <component name="RunManager" selected="Application.BadMicroBenchmark2">
+    <configuration name="BadMicroBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.BadMicroBenchmark" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -97,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuavaPreconditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.GuavaPreconditions" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoaderAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.LoaderAssertions" />
+    <configuration name="BadMicroBenchmark2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.BadMicroBenchmark2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -136,16 +121,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SLF4JLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.SLF4JLogging" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.tests.*" />
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ml.cloverkit.validating.tests" />
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.tests.CircularQueueTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicStringInverterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.validating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ml.cloverkit.validating" />
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.DynamicStringInverterTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BadMicroBenchmark2" />
+        <item itemvalue="Application.BadMicroBenchmark" />
+        <item itemvalue="Application.SLF4JLogging" />
+        <item itemvalue="JUnit.DynamicStringInverterTests" />
         <item itemvalue="Application.NonNullConstruction" />
-        <item itemvalue="Application.GuavaPreconditions" />
-        <item itemvalue="JUnit.CircularQueueTest" />
-        <item itemvalue="Application.GuavaAssertions" />
-        <item itemvalue="Application.LoaderAssertions" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +201,8 @@
       <workItem from="1682602610726" duration="1992000" />
       <workItem from="1683288373370" duration="7553000" />
       <workItem from="1683547740259" duration="7102000" />
-      <workItem from="1683634272359" duration="11951000" />
+      <workItem from="1683634272359" duration="12033000" />
+      <workItem from="1683807429118" duration="5793000" />
     </task>
     <servers />
   </component>
