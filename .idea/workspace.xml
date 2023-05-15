@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/BadMicroBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/BadMicroBenchmark2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/Inverter4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/SLF4JLogging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/StringInverterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/files/AddAndSubtractPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/files/PartsOfPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/files/PathAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/files/PathInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/validating/DynamicStringInverterTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +75,13 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BadMicroBenchmark2">
-    <configuration name="BadMicroBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.BadMicroBenchmark" />
+  <component name="RunManager" selected="Application.AddAndSubtractPaths">
+    <configuration name="AddAndSubtractPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.files.AddAndSubtractPaths" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.*" />
+          <option name="PATTERN" value="ml.cloverkit.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonNullConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.NonNullConstruction" />
+    <configuration name="PartsOfPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.files.PartsOfPaths" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.*" />
+          <option name="PATTERN" value="ml.cloverkit.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.SLF4JLogging" />
+    <configuration name="PathAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.files.PathAnalysis" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.*" />
+          <option name="PATTERN" value="ml.cloverkit.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,28 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicStringInverterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.files.PathInfo" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.validating.*" />
+          <option name="PATTERN" value="ml.cloverkit.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ml.cloverkit.validating" />
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.validating.DynamicStringInverterTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddAndSubtractPaths" />
+        <item itemvalue="Application.PathAnalysis" />
+        <item itemvalue="Application.PartsOfPaths" />
+        <item itemvalue="Application.PathInfo" />
         <item itemvalue="Application.BadMicroBenchmark2" />
-        <item itemvalue="Application.BadMicroBenchmark" />
-        <item itemvalue="Application.SLF4JLogging" />
-        <item itemvalue="JUnit.DynamicStringInverterTests" />
-        <item itemvalue="Application.NonNullConstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +195,7 @@
       <workItem from="1683547740259" duration="7102000" />
       <workItem from="1683634272359" duration="12033000" />
       <workItem from="1683807429118" duration="5793000" />
+      <workItem from="1684157530250" duration="4119000" />
     </task>
     <servers />
   </component>
