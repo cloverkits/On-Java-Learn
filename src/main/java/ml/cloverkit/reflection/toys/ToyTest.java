@@ -23,6 +23,7 @@ public class ToyTest {
         System.out.println("Canonical name: " + cc.getCanonicalName());
     }
 
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         Class c = null;
         try {
@@ -38,7 +39,7 @@ public class ToyTest {
         Object obj = null;
         try {
             // 对应类要有 public 的无参构造器
-            obj = up.getDeclaredConstructor().newInstance();
+            obj = up.newInstance();
         } catch (Exception e) {
             throw new RuntimeException("Cannot instantiate");
         }
