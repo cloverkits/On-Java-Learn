@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenericVarargs {
+    @SafeVarargs
     public static <T> List<T> makeList(T... args) {
         List<T> result = new ArrayList<>();
         for (T item : args) {
