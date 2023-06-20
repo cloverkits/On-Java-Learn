@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ArrayOfGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ArrayOfGenericReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/BasicBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CovariantArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/EpicBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericArrayWithTypeToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/InheritBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ListOfGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CompilerIntelligence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericsAndCovariance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SuperTypeWildcards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/nonCovariantGenerics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +79,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CovariantArrays">
-    <configuration name="BasicBounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.BasicBounds" />
+  <component name="RunManager" selected="Application.GenericReading">
+    <configuration name="CompilerIntelligence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CompilerIntelligence" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericArray2" />
+    <configuration name="GenericReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericReading" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericArrayWithTypeToken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericArrayWithTypeToken" />
+    <configuration name="GenericsAndCovariance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericsAndCovariance" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritBounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.InheritBounds" />
+    <configuration name="Holder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.Holder" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericReading" />
+        <item itemvalue="Application.Holder" />
+        <item itemvalue="Application.CompilerIntelligence" />
+        <item itemvalue="Application.GenericsAndCovariance" />
         <item itemvalue="Application.CovariantArrays" />
-        <item itemvalue="Application.InheritBounds" />
-        <item itemvalue="Application.BasicBounds" />
-        <item itemvalue="Application.GenericArrayWithTypeToken" />
-        <item itemvalue="Application.GenericArray2" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +215,9 @@
       <workItem from="1686744685949" duration="69000" />
       <workItem from="1686744761946" duration="5892000" />
       <workItem from="1686830835646" duration="7148000" />
-      <workItem from="1687176778607" duration="5749000" />
+      <workItem from="1687176778607" duration="6446000" />
+      <workItem from="1687263261747" duration="2339000" />
+      <workItem from="1687266046680" duration="1119000" />
     </task>
     <servers />
   </component>
