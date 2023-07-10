@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CompilerIntelligence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericsAndCovariance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SuperTypeWildcards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/nonCovariantGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CaptureConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ListOfInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/MultipleInterfaceVariants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/NeedCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/PrimitiveGenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UnboundedWildcards1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UnboundedWildcards2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Wildcards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,9 +82,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericReading">
-    <configuration name="CompilerIntelligence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CompilerIntelligence" />
+  <component name="RunManager" selected="Application.GenericCast">
+    <configuration name="CaptureConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CaptureConversion" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CovariantArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CovariantArrays" />
+    <configuration name="GenericCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericCast" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericReading" />
+    <configuration name="PrimitiveGenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.PrimitiveGenericTest" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsAndCovariance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericsAndCovariance" />
+    <configuration name="UnboundedWildcards1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.UnboundedWildcards1" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Holder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.Holder" />
+    <configuration name="UnboundedWildcards2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.UnboundedWildcards2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericReading" />
-        <item itemvalue="Application.Holder" />
-        <item itemvalue="Application.CompilerIntelligence" />
-        <item itemvalue="Application.GenericsAndCovariance" />
-        <item itemvalue="Application.CovariantArrays" />
+        <item itemvalue="Application.GenericCast" />
+        <item itemvalue="Application.PrimitiveGenericTest" />
+        <item itemvalue="Application.CaptureConversion" />
+        <item itemvalue="Application.UnboundedWildcards2" />
+        <item itemvalue="Application.UnboundedWildcards1" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,11 @@
       <workItem from="1686830835646" duration="7148000" />
       <workItem from="1687176778607" duration="6446000" />
       <workItem from="1687263261747" duration="2339000" />
-      <workItem from="1687266046680" duration="1119000" />
+      <workItem from="1687266046680" duration="1375000" />
+      <workItem from="1687528569352" duration="20000" />
+      <workItem from="1688194074608" duration="3000" />
+      <workItem from="1688990708219" duration="80000" />
+      <workItem from="1688990800219" duration="5861000" />
     </task>
     <servers />
   </component>
