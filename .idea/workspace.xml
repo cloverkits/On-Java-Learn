@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CaptureConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericCast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ListOfInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/MultipleInterfaceVariants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/NeedCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/PrimitiveGenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UnboundedWildcards1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UnboundedWildcards2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Wildcards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/BasicHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CRGWithBasicHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CheckedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ComparablePet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CovariantReturnTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/CuriouslyRecurringGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/GenericsAndReturnTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/HijackedInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/NotSelfBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/OrdinaryArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/PlainGenericInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/RestrictedComparablePets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SelfBounding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SelfBoundingAndCovariantArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SelfBoundingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ThrowGenericException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Unconstrained.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/UseList2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +92,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericCast">
-    <configuration name="CaptureConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CaptureConversion" />
+  <component name="RunManager" selected="Application.ThrowGenericException">
+    <configuration name="CheckedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.CheckedList" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.GenericCast" />
+    <configuration name="OrdinaryArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.OrdinaryArguments" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveGenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.PrimitiveGenericTest" />
+    <configuration name="PlainGenericInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.PlainGenericInheritance" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnboundedWildcards1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.UnboundedWildcards1" />
+    <configuration name="SelfBounding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.SelfBounding" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnboundedWildcards2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.UnboundedWildcards2" />
+    <configuration name="ThrowGenericException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.ThrowGenericException" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericCast" />
-        <item itemvalue="Application.PrimitiveGenericTest" />
-        <item itemvalue="Application.CaptureConversion" />
-        <item itemvalue="Application.UnboundedWildcards2" />
-        <item itemvalue="Application.UnboundedWildcards1" />
+        <item itemvalue="Application.ThrowGenericException" />
+        <item itemvalue="Application.CheckedList" />
+        <item itemvalue="Application.PlainGenericInheritance" />
+        <item itemvalue="Application.OrdinaryArguments" />
+        <item itemvalue="Application.SelfBounding (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +234,8 @@
       <workItem from="1687528569352" duration="20000" />
       <workItem from="1688194074608" duration="3000" />
       <workItem from="1688990708219" duration="80000" />
-      <workItem from="1688990800219" duration="5861000" />
+      <workItem from="1688990800219" duration="6221000" />
+      <workItem from="1689077540054" duration="6143000" />
     </task>
     <servers />
   </component>
