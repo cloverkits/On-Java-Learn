@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/ArrayShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Suppliers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ArrayOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/CollectionComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Apply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ApplyFunctional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/ApplyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/BankTeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/DogsAndRobotMethodReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/SimpleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/generics/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/RaggedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ArrayOfGenericType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ArrayOfGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/AssemblingMultidimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/AutoboxingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/FillingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/IceCreamFlavors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/MultiDimWrapperArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/MultidimensionalObjectArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/MultidimensionalPrimitiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ParameterizedArrayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/SimpleSetAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ThreeDWithNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,35 +90,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayOptions">
-    <configuration name="ApplyFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.ApplyFunctional" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.ApplyTest" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ArrayOptions" />
+  <component name="RunManager" selected="Application.SimpleSetAll">
+    <configuration name="ArrayOfGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ArrayOfGenerics" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.CollectionComparison" />
+    <configuration name="AssemblingMultidimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.AssemblingMultidimensionalArrays" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -141,12 +117,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogsAndRobotMethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.generics.DogsAndRobotMethodReferences" />
+    <configuration name="FillingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.FillingArrays" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.generics.*" />
+          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiDimWrapperArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.MultiDimWrapperArray" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSetAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.SimpleSetAll" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayOptions" />
-        <item itemvalue="Application.CollectionComparison" />
-        <item itemvalue="Application.DogsAndRobotMethodReferences" />
-        <item itemvalue="Application.ApplyFunctional" />
-        <item itemvalue="Application.ApplyTest" />
+        <item itemvalue="Application.SimpleSetAll" />
+        <item itemvalue="Application.FillingArrays" />
+        <item itemvalue="Application.ArrayOfGenerics" />
+        <item itemvalue="Application.MultiDimWrapperArray" />
+        <item itemvalue="Application.AssemblingMultidimensionalArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +236,8 @@
       <workItem from="1689077540054" duration="6143000" />
       <workItem from="1689167512271" duration="2674000" />
       <workItem from="1689170694020" duration="276000" />
-      <workItem from="1689249977336" duration="6203000" />
+      <workItem from="1689249977336" duration="6590000" />
+      <workItem from="1689596014774" duration="6958000" />
     </task>
     <servers />
   </component>
