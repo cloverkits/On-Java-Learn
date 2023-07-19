@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/ConvertTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Rand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/CountUpward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ModifyExisting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ParallelSetAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/TestCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/TestRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/TetConvertTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/AlphabeticSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ArrayCopying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ArraySearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/CompType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ComparingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ParallelPrefix1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/StreamFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/StringSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/jmh/ParallelSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +89,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelSetAll">
-    <configuration name="CountUpward" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.CountUpward" />
+  <component name="RunManager" selected="Application.ParallelPrefix1">
+    <configuration name="AlphabeticSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.AlphabeticSearch" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifyExisting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ModifyExisting" />
+    <configuration name="ArraySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ArraySearching" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelSetAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ParallelSetAll" />
+    <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ComparatorTest" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.TestRand" />
+    <configuration name="ParallelPrefix1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ParallelPrefix1" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TetConvertTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.TetConvertTo" />
+    <configuration name="StringSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.StringSorting" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelSetAll" />
-        <item itemvalue="Application.CountUpward" />
-        <item itemvalue="Application.ModifyExisting" />
-        <item itemvalue="Application.TetConvertTo" />
-        <item itemvalue="Application.TestRand" />
+        <item itemvalue="Application.ParallelPrefix1" />
+        <item itemvalue="Application.AlphabeticSearch" />
+        <item itemvalue="Application.ArraySearching" />
+        <item itemvalue="Application.StringSorting" />
+        <item itemvalue="Application.ComparatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +237,8 @@
       <workItem from="1689170694020" duration="276000" />
       <workItem from="1689249977336" duration="6590000" />
       <workItem from="1689596014774" duration="7592000" />
-      <workItem from="1689682269004" duration="6361000" />
+      <workItem from="1689682269004" duration="6455000" />
+      <workItem from="1689768733947" duration="6315000" />
     </task>
     <servers />
   </component>
