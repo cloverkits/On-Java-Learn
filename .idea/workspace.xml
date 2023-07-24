@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ParallelPrefix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/ParallelPrefix3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/PythonLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Burrito2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/NonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/OzWitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SpaceShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SpicinessEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/UpcastEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/TypeOfFood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +93,13 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PythonLists">
-    <configuration name="AlphabeticSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.AlphabeticSearch" />
+  <component name="RunManager" selected="Application.Meal">
+    <configuration name="EnumImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.EnumImplementation" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelPrefix1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ParallelPrefix1" />
+    <configuration name="Meal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.menu.Meal" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelPrefix2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ParallelPrefix2" />
+    <configuration name="NonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.NonEnum" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelPrefix3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.arrays.ParallelPrefix3" />
+    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RandomTest" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.arrays.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,35 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PythonLists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UpcastEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.UpcastEnum" />
       <module name="OnJava8" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/java/ml/cloverkit/arrays/PythonLists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonLists" />
-        <item itemvalue="Application.ParallelPrefix3" />
-        <item itemvalue="Application.ParallelPrefix2" />
-        <item itemvalue="Application.ParallelPrefix1" />
-        <item itemvalue="Application.AlphabeticSearch" />
+        <item itemvalue="Application.Meal" />
+        <item itemvalue="Application.RandomTest" />
+        <item itemvalue="Application.EnumImplementation" />
+        <item itemvalue="Application.NonEnum" />
+        <item itemvalue="Application.UpcastEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +246,9 @@
       <workItem from="1689775937664" duration="40000" />
       <workItem from="1689775980707" duration="202000" />
       <workItem from="1689776192394" duration="111000" />
-      <workItem from="1689855218424" duration="1637000" />
+      <workItem from="1689855218424" duration="1687000" />
+      <workItem from="1690202138038" duration="33000" />
+      <workItem from="1690202424496" duration="4833000" />
     </task>
     <servers />
   </component>
