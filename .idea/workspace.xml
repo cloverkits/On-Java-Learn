@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Enums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Burrito2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/NonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/OzWitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RandomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Reflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SpaceShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SpicinessEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/UpcastEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/TypeOfFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/AlarmPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/BigEnumSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SecurityCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Meal2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +82,26 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Meal">
-    <configuration name="EnumImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.EnumImplementation" />
+  <component name="RunManager" selected="Application.BigEnumSet">
+    <configuration name="BigEnumSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.BigEnumSet" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.EnumSets" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.NonEnum" />
+    <configuration name="Meal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.menu.Meal2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -133,25 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RandomTest" />
+    <configuration name="SecurityCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.SecurityCategory" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpcastEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.UpcastEnum" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigEnumSet" />
+        <item itemvalue="Application.EnumSets" />
+        <item itemvalue="Application.Meal2" />
+        <item itemvalue="Application.SecurityCategory" />
         <item itemvalue="Application.Meal" />
-        <item itemvalue="Application.RandomTest" />
-        <item itemvalue="Application.EnumImplementation" />
-        <item itemvalue="Application.NonEnum" />
-        <item itemvalue="Application.UpcastEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +237,8 @@
       <workItem from="1689776192394" duration="111000" />
       <workItem from="1689855218424" duration="1687000" />
       <workItem from="1690202138038" duration="33000" />
-      <workItem from="1690202424496" duration="4833000" />
+      <workItem from="1690202424496" duration="5159000" />
+      <workItem from="1690290014076" duration="3806000" />
     </task>
     <servers />
   </component>
