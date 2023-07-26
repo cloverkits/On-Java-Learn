@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/AlarmPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/BigEnumSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/SecurityCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/menu/Meal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/CarWash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/ConstantSpecificMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/EnumMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/NotClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/OverrideConstantSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/PostOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +83,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigEnumSet">
-    <configuration name="BigEnumSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.BigEnumSet" />
+  <component name="RunManager" selected="Application.PostOffice">
+    <configuration name="CarWash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.CarWash" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.EnumSets" />
+    <configuration name="ConstantSpecificMethod (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.ConstantSpecificMethod" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.menu.Meal" />
+    <configuration name="ConstantSpecificMethod (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.ConstantSpecificMethod" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.menu.Meal2" />
+    <configuration name="ConstantSpecificMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.ConstantSpecificMethod" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enums.menu.*" />
+          <option name="PATTERN" value="ml.cloverkit.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.SecurityCategory" />
+    <configuration name="PostOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.PostOffice" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BigEnumSet" />
-        <item itemvalue="Application.EnumSets" />
-        <item itemvalue="Application.Meal2" />
-        <item itemvalue="Application.SecurityCategory" />
-        <item itemvalue="Application.Meal" />
+        <item itemvalue="Application.PostOffice" />
+        <item itemvalue="Application.CarWash" />
+        <item itemvalue="Application.ConstantSpecificMethod" />
+        <item itemvalue="Application.ConstantSpecificMethod (3)" />
+        <item itemvalue="Application.ConstantSpecificMethod (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +239,8 @@
       <workItem from="1689855218424" duration="1687000" />
       <workItem from="1690202138038" duration="33000" />
       <workItem from="1690202424496" duration="5159000" />
-      <workItem from="1690290014076" duration="3806000" />
+      <workItem from="1690290014076" duration="4062000" />
+      <workItem from="1690373464287" duration="7158000" />
     </task>
     <servers />
   </component>
