@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/VendingMachineInput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Competitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Outcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/RoShamBo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Rock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/Scissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -85,9 +93,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VendingMachine">
-    <configuration name="CarWash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.CarWash" />
+  <component name="RunManager" selected="Application.RoShamBo5">
+    <configuration name="RoShamBo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RoShamBo1" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstantSpecificMethod (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.ConstantSpecificMethod" />
+    <configuration name="RoShamBo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RoShamBo2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstantSpecificMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.ConstantSpecificMethod" />
+    <configuration name="RoShamBo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RoShamBo3" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.PostOffice" />
+    <configuration name="RoShamBo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RoShamBo4" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +146,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.VendingMachine" />
+    <configuration name="RoShamBo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enums.RoShamBo5" />
       <module name="OnJava8" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/src/main/java/ml/cloverkit/enums/VendingMachineInput.txt&quot;" />
-      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ml.cloverkit.enums.*" />
@@ -154,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CarWash" />
-      <item itemvalue="Application.ConstantSpecificMethod" />
-      <item itemvalue="Application.ConstantSpecificMethod (3)" />
-      <item itemvalue="Application.PostOffice" />
-      <item itemvalue="Application.VendingMachine" />
+      <item itemvalue="Application.RoShamBo1" />
+      <item itemvalue="Application.RoShamBo2" />
+      <item itemvalue="Application.RoShamBo3" />
+      <item itemvalue="Application.RoShamBo4" />
+      <item itemvalue="Application.RoShamBo5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VendingMachine" />
-        <item itemvalue="Application.PostOffice" />
-        <item itemvalue="Application.CarWash" />
-        <item itemvalue="Application.ConstantSpecificMethod" />
-        <item itemvalue="Application.ConstantSpecificMethod (3)" />
+        <item itemvalue="Application.RoShamBo5" />
+        <item itemvalue="Application.RoShamBo4" />
+        <item itemvalue="Application.RoShamBo3" />
+        <item itemvalue="Application.RoShamBo2" />
+        <item itemvalue="Application.RoShamBo1" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +259,9 @@
       <workItem from="1690290014076" duration="4062000" />
       <workItem from="1690373464287" duration="7493000" />
       <workItem from="1690460346583" duration="43000" />
-      <workItem from="1690460400226" duration="5777000" />
+      <workItem from="1690460400226" duration="6632000" />
+      <workItem from="1690805123314" duration="159000" />
+      <workItem from="1690805544875" duration="6423000" />
     </task>
     <servers />
   </component>
