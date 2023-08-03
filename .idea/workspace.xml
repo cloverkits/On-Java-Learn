@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enumerations/Dominance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enumerations/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enumerations/SealedPatternMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/enumerations/Tanks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Alias1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Alias2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/CloneArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/LocalCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/PassReferences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/AddingClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/CheckCloneable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Compete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/DepthReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/HorrorFlick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Immutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Immutable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/ImmutableInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/MutableInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/OceanReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/SimperMutableInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/TemperatureReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/tests/DeepCopyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,20 +94,7 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Snake">
-    <configuration name="Alias2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.Alias2" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.references.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Immutable2">
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -119,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneArrayList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.CloneArrayList" />
+    <configuration name="Immutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.Immutable1" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.CloneArrayList" />
+    <configuration name="Immutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.Immutable2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.LocalCopy" />
+    <configuration name="ImmutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.ImmutableInteger" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -158,13 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedPatternMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.SealedPatternMatch" />
+    <configuration name="MutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.MutableInteger" />
       <module name="OnJava8" />
-      <option name="VM_PARAMETERS" value="--enable-preview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.enumerations.*" />
+          <option name="PATTERN" value="ml.cloverkit.references.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.Snake" />
+    <configuration name="SimperMutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.SimperMutableInteger" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -187,19 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
-      <item itemvalue="Application.Alias2" />
-      <item itemvalue="Application.CloneArrayList" />
-      <item itemvalue="Application.CloneArrayList (1)" />
-      <item itemvalue="Application.LocalCopy" />
-      <item itemvalue="Application.Snake" />
+      <item itemvalue="Application.Immutable1" />
+      <item itemvalue="Application.Immutable2" />
+      <item itemvalue="Application.ImmutableInteger" />
+      <item itemvalue="Application.MutableInteger" />
+      <item itemvalue="Application.SimperMutableInteger" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Snake" />
-        <item itemvalue="Application.LocalCopy" />
-        <item itemvalue="Application.CloneArrayList (1)" />
-        <item itemvalue="Application.CloneArrayList" />
-        <item itemvalue="Application.Alias2" />
+        <item itemvalue="Application.Immutable2" />
+        <item itemvalue="Application.Immutable1" />
+        <item itemvalue="Application.SimperMutableInteger" />
+        <item itemvalue="Application.MutableInteger" />
+        <item itemvalue="Application.ImmutableInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +280,8 @@
       <workItem from="1690805544875" duration="6729000" />
       <workItem from="1690891608926" duration="7133000" />
       <workItem from="1690978390475" duration="78000" />
-      <workItem from="1690978478853" duration="6389000" />
+      <workItem from="1690978478853" duration="6640000" />
+      <workItem from="1691064408855" duration="6769000" />
     </task>
     <servers />
   </component>
