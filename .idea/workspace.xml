@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/AddingClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/CheckCloneable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Compete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/DepthReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/HorrorFlick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Immutable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/Immutable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/ImmutableInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/MutableInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/OceanReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/SimperMutableInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/TemperatureReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/references/tests/DeepCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/HTMLColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/FunctionalMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/HTMLColorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/ListOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/SetOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +86,7 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Immutable2">
+  <component name="RunManager" selected="Application.FunctionalMap">
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -109,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Immutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.Immutable1" />
+    <configuration name="FunctionalMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.FunctionalMap" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.references.*" />
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HTMLColorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.HTMLColorTest" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.ImmutableInteger" />
+    <configuration name="ListOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.ListOps" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.references.*" />
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.MutableInteger" />
+    <configuration name="SetOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.SetOrder" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.references.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimperMutableInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.references.SimperMutableInteger" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.references.*" />
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
-      <item itemvalue="Application.Immutable1" />
+      <item itemvalue="Application.FunctionalMap" />
+      <item itemvalue="Application.HTMLColorTest" />
+      <item itemvalue="Application.ListOps" />
+      <item itemvalue="Application.SetOrder" />
       <item itemvalue="Application.Immutable2" />
-      <item itemvalue="Application.ImmutableInteger" />
-      <item itemvalue="Application.MutableInteger" />
-      <item itemvalue="Application.SimperMutableInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalMap" />
+        <item itemvalue="Application.SetOrder" />
+        <item itemvalue="Application.ListOps" />
+        <item itemvalue="Application.HTMLColorTest" />
         <item itemvalue="Application.Immutable2" />
-        <item itemvalue="Application.Immutable1" />
-        <item itemvalue="Application.SimperMutableInteger" />
-        <item itemvalue="Application.MutableInteger" />
-        <item itemvalue="Application.ImmutableInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +273,9 @@
       <workItem from="1690891608926" duration="7133000" />
       <workItem from="1690978390475" duration="78000" />
       <workItem from="1690978478853" duration="6640000" />
-      <workItem from="1691064408855" duration="6769000" />
+      <workItem from="1691064408855" duration="7100000" />
+      <workItem from="1691213010009" duration="15000" />
+      <workItem from="1691497331449" duration="5998000" />
     </task>
     <servers />
   </component>
