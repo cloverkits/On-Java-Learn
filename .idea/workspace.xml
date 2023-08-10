@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/CountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/CountingIntegerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/FillMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/FillMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/FillingLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/NavMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/StreamFillMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/SupplierCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/CollectionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/TypeForSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/Unsupported.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +85,7 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountMap">
+  <component name="RunManager" selected="Application.TypeForSets">
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -98,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ml.cloverkit.enumerations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.CollectionMethods" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingIntegerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.CountingIntegerList" />
+    <configuration name="Countries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.Countries" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.FillMapTest" />
+    <configuration name="TypeForSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.TypeForSets" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -144,21 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFillMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.StreamFillMaps" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplierCollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.SupplierCollectionTest" />
+    <configuration name="Unsupported" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.Unsupported" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -172,19 +167,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
+      <item itemvalue="Application.CollectionMethods" />
+      <item itemvalue="Application.Countries" />
+      <item itemvalue="Application.TypeForSets" />
+      <item itemvalue="Application.Unsupported" />
       <item itemvalue="Application.CountMap" />
-      <item itemvalue="Application.CountingIntegerList" />
-      <item itemvalue="Application.FillMapTest" />
-      <item itemvalue="Application.StreamFillMaps" />
-      <item itemvalue="Application.SupplierCollectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeForSets" />
+        <item itemvalue="Application.Unsupported" />
+        <item itemvalue="Application.CollectionMethods" />
+        <item itemvalue="Application.Countries" />
         <item itemvalue="Application.CountMap" />
-        <item itemvalue="Application.CountingIntegerList" />
-        <item itemvalue="Application.FillMapTest" />
-        <item itemvalue="Application.StreamFillMaps" />
-        <item itemvalue="Application.SupplierCollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +276,8 @@
       <workItem from="1691213010009" duration="15000" />
       <workItem from="1691497331449" duration="6109000" />
       <workItem from="1691583117324" duration="4033000" />
-      <workItem from="1691587311716" duration="2000000" />
+      <workItem from="1691587311716" duration="2149000" />
+      <workItem from="1691669479010" duration="6132000" />
     </task>
     <servers />
   </component>
