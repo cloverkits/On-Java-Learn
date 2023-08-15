@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Countries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/CollectionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/TypeForSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/Unsupported.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/AssociativeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/MapOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/QueueBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/SimpleDeques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/SortedSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/ToDoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,20 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeForSets">
+  <component name="RunManager" selected="Application.MapOps">
+    <configuration name="AssociativeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.AssociativeArray" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -100,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.CollectionMethods" />
+    <configuration name="MapOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.MapOps" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -113,34 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.CountMap" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Countries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.Countries" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeForSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.TypeForSets" />
+    <configuration name="SimpleDeques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.SimpleDeques" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +141,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unsupported" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.Unsupported" />
+    <configuration name="ToDoList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.ToDoList" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.ToDoList" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -167,19 +169,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
-      <item itemvalue="Application.CollectionMethods" />
-      <item itemvalue="Application.Countries" />
-      <item itemvalue="Application.TypeForSets" />
-      <item itemvalue="Application.Unsupported" />
-      <item itemvalue="Application.CountMap" />
+      <item itemvalue="Application.AssociativeArray" />
+      <item itemvalue="Application.MapOps" />
+      <item itemvalue="Application.SimpleDeques" />
+      <item itemvalue="Application.ToDoList" />
+      <item itemvalue="Application.ToDoList (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypeForSets" />
-        <item itemvalue="Application.Unsupported" />
-        <item itemvalue="Application.CollectionMethods" />
-        <item itemvalue="Application.Countries" />
-        <item itemvalue="Application.CountMap" />
+        <item itemvalue="Application.MapOps" />
+        <item itemvalue="Application.AssociativeArray" />
+        <item itemvalue="Application.SimpleDeques" />
+        <item itemvalue="Application.ToDoList (1)" />
+        <item itemvalue="Application.ToDoList" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +279,8 @@
       <workItem from="1691497331449" duration="6109000" />
       <workItem from="1691583117324" duration="4033000" />
       <workItem from="1691587311716" duration="2149000" />
-      <workItem from="1691669479010" duration="6132000" />
+      <workItem from="1691669479010" duration="6494000" />
+      <workItem from="1692101644330" duration="6223000" />
     </task>
     <servers />
   </component>
