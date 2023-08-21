@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/PasswordUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/Testable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/UseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/UseCaseTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/atunit/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/CanonicalMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/Enumerations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/collectiontopics/Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/SimulatingNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/TableCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/database/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/simplest/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/simplest/SimpleProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -90,22 +93,9 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseCaseTracker">
+  <component name="RunManager" selected="Application.SimpleTest">
     <configuration name="Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.Bits" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanonicalMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.CanonicalMapping" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enumerations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.collectiontopics.Enumerations" />
+    <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.database.SimpleTest" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
+          <option name="PATTERN" value="ml.cloverkit.annotations.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,6 +140,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ml.cloverkit.collectiontopics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.database.TableCreator" />
+      <module name="OnJava8" />
+      <option name="PROGRAM_PARAMETERS" value="ml.cloverkit.annotations.database.Member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.annotations.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,19 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
+      <item itemvalue="Application.SimpleTest" />
+      <item itemvalue="Application.TableCreator" />
       <item itemvalue="Application.Bits" />
-      <item itemvalue="Application.CanonicalMapping" />
-      <item itemvalue="Application.Enumerations" />
       <item itemvalue="Application.Stacks" />
       <item itemvalue="Application.UseCaseTracker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleTest" />
+        <item itemvalue="Application.TableCreator" />
         <item itemvalue="Application.UseCaseTracker" />
         <item itemvalue="Application.Bits" />
         <item itemvalue="Application.Stacks" />
-        <item itemvalue="Application.Enumerations" />
-        <item itemvalue="Application.CanonicalMapping" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +289,8 @@
       <workItem from="1691669479010" duration="6494000" />
       <workItem from="1692101644330" duration="6330000" />
       <workItem from="1692188102037" duration="6946000" />
-      <workItem from="1692274417527" duration="6571000" />
+      <workItem from="1692274417527" duration="6728000" />
+      <workItem from="1692619840767" duration="5201000" />
     </task>
     <servers />
   </component>
