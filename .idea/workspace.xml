@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/ProcessFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AUComposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AUExternalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AtUnitExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AtUnitExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AtUnitExample4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/AtUnitExample5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/StackL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/StackLStringTst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/AtUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/ClassNameFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/TestObjectCleanup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/TestObjectCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/TestProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/AtUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/AtUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +83,7 @@
       <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassNameFinder">
+  <component name="RunManager" selected="Application.AtUnit">
     <configuration name="AtUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.atunit.AtUnit" />
       <module name="OnJava8" />
@@ -189,8 +174,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassNameFinder" />
         <item itemvalue="Application.AtUnit" />
+        <item itemvalue="Application.ClassNameFinder" />
         <item itemvalue="Application.Multiplier" />
         <item itemvalue="Application.SimpleTest" />
         <item itemvalue="Application.TableCreator" />
@@ -297,7 +282,8 @@
       <workItem from="1692274417527" duration="6728000" />
       <workItem from="1692619840767" duration="5650000" />
       <workItem from="1692706445510" duration="5654000" />
-      <workItem from="1692792759564" duration="6911000" />
+      <workItem from="1692792759564" duration="6951000" />
+      <workItem from="1693224824333" duration="4466000" />
     </task>
     <servers />
   </component>
