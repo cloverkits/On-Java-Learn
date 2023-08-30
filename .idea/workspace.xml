@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CollectionIntoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelStreamPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/AtUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/annotations/atunit/AtUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,27 +82,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ml.cloverkit.concurrent" />
       <recent name="ml.cloverkit.arrays" />
       <recent name="ml.cloverkit.exceptions" />
       <recent name="ml.cloverkit.streams" />
       <recent name="ml.cloverkit.collections" />
-      <recent name="ml.cloverkit.innerclasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtUnit">
-    <configuration name="AtUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.atunit.AtUnit" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.annotations.atunit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParallelStreamPuzzle">
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -111,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassNameFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.atunit.ClassNameFinder" />
+    <configuration name="CollectionIntoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CollectionIntoStream" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.annotations.atunit.*" />
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +117,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.ifx.Multiplier" />
+    <configuration name="ParallelStreamPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.ParallelStreamPuzzle" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.annotations.ifx.*" />
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.database.SimpleTest" />
+    <configuration name="Summing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing2" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.annotations.database.*" />
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.annotations.database.TableCreator" />
+    <configuration name="Summing3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing3" />
       <module name="OnJava8" />
-      <option name="PROGRAM_PARAMETERS" value="ml.cloverkit.annotations.database.Member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ml.cloverkit.annotations.database.*" />
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Summing4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing4" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +173,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
-      <item itemvalue="Application.AtUnit" />
-      <item itemvalue="Application.ClassNameFinder" />
-      <item itemvalue="Application.Multiplier" />
-      <item itemvalue="Application.SimpleTest" />
-      <item itemvalue="Application.TableCreator" />
+      <item itemvalue="Application.CollectionIntoStream" />
+      <item itemvalue="Application.ParallelStreamPuzzle" />
+      <item itemvalue="Application.Summing2" />
+      <item itemvalue="Application.Summing3" />
+      <item itemvalue="Application.Summing4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AtUnit" />
-        <item itemvalue="Application.ClassNameFinder" />
-        <item itemvalue="Application.Multiplier" />
-        <item itemvalue="Application.SimpleTest" />
-        <item itemvalue="Application.TableCreator" />
+        <item itemvalue="Application.ParallelStreamPuzzle" />
+        <item itemvalue="Application.CollectionIntoStream" />
+        <item itemvalue="Application.Summing4" />
+        <item itemvalue="Application.Summing3" />
+        <item itemvalue="Application.Summing2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +290,9 @@
       <workItem from="1692619840767" duration="5650000" />
       <workItem from="1692706445510" duration="5654000" />
       <workItem from="1692792759564" duration="6951000" />
-      <workItem from="1693224824333" duration="4466000" />
+      <workItem from="1693224824333" duration="5354000" />
+      <workItem from="1693311180096" duration="4599000" />
+      <workItem from="1693397640877" duration="6020000" />
     </task>
     <servers />
   </component>
