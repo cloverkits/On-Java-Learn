@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CollectionIntoStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelStreamPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Summing4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/Nap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CachedThreadPool2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CachedThreadPool3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CountingStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Futures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/InterferingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/LambdasAndMethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/MoreTaskAfterShutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/NapTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelStreamPuzzle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/ParallelStreamPuzzle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/QuittableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/QuittingTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/SingleThreadExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/SingleThreadExecutor3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +100,20 @@
       <recent name="ml.cloverkit.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamPuzzle">
+  <component name="RunManager" selected="Application.QuittingTasks">
+    <configuration name="CachedThreadPool3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CachedThreadPool3" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -104,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionIntoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CollectionIntoStream" />
+    <configuration name="CountingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CountingStream" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -117,10 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.ParallelStreamPuzzle" />
+    <configuration name="Futures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Futures" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Summing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing2" />
+    <configuration name="LambdasAndMethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.LambdasAndMethodReferences" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -145,21 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Summing3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing3" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Summing4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.Summing4" />
+    <configuration name="QuittingTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.QuittingTasks" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -173,19 +182,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
-      <item itemvalue="Application.CollectionIntoStream" />
-      <item itemvalue="Application.ParallelStreamPuzzle" />
-      <item itemvalue="Application.Summing2" />
-      <item itemvalue="Application.Summing3" />
-      <item itemvalue="Application.Summing4" />
+      <item itemvalue="Application.CachedThreadPool3" />
+      <item itemvalue="Application.CountingStream" />
+      <item itemvalue="Application.Futures" />
+      <item itemvalue="Application.LambdasAndMethodReferences" />
+      <item itemvalue="Application.QuittingTasks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelStreamPuzzle" />
-        <item itemvalue="Application.CollectionIntoStream" />
-        <item itemvalue="Application.Summing4" />
-        <item itemvalue="Application.Summing3" />
-        <item itemvalue="Application.Summing2" />
+        <item itemvalue="Application.QuittingTasks" />
+        <item itemvalue="Application.LambdasAndMethodReferences" />
+        <item itemvalue="Application.CountingStream" />
+        <item itemvalue="Application.Futures" />
+        <item itemvalue="Application.CachedThreadPool3" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +301,8 @@
       <workItem from="1692792759564" duration="6951000" />
       <workItem from="1693224824333" duration="5354000" />
       <workItem from="1693311180096" duration="4599000" />
-      <workItem from="1693397640877" duration="6020000" />
+      <workItem from="1693397640877" duration="6109000" />
+      <workItem from="1693483881894" duration="7084000" />
     </task>
     <servers />
   </component>
