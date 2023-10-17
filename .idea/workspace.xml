@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7893a3-c3f7-435a-b46f-00ebeae0ee00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletableApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletableApplyAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletableApplyChained.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletableUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletedMachina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Machina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/QuittingCompletable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/CompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/DualCompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ml/cloverkit/concurrent/Workable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +85,7 @@
       <recent name="ml.cloverkit.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompletableApplyAsync">
+  <component name="RunManager" selected="Application.DualCompletableOperations">
     <configuration name="CaseNull" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.enumerations.CaseNull" />
       <module name="OnJava8" />
@@ -131,6 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompletableOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CompletableOperations" />
+      <module name="OnJava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompletedMachina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.CompletedMachina" />
       <module name="OnJava8" />
@@ -144,21 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasAndMethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.LambdasAndMethodReferences" />
-      <module name="OnJava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ml.cloverkit.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuittingTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.QuittingTasks" />
+    <configuration name="DualCompletableOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ml.cloverkit.concurrent.DualCompletableOperations" />
       <module name="OnJava8" />
       <extension name="coverage">
         <pattern>
@@ -172,19 +167,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CaseNull" />
+      <item itemvalue="Application.CompletableOperations" />
+      <item itemvalue="Application.DualCompletableOperations" />
       <item itemvalue="Application.CompletableApplyAsync" />
       <item itemvalue="Application.CompletableApplyChained" />
       <item itemvalue="Application.CompletedMachina" />
-      <item itemvalue="Application.LambdasAndMethodReferences" />
-      <item itemvalue="Application.QuittingTasks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DualCompletableOperations" />
+        <item itemvalue="Application.CompletableOperations" />
         <item itemvalue="Application.CompletableApplyAsync" />
         <item itemvalue="Application.CompletableApplyChained" />
         <item itemvalue="Application.CompletedMachina" />
-        <item itemvalue="Application.QuittingTasks" />
-        <item itemvalue="Application.LambdasAndMethodReferences" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +288,8 @@
       <workItem from="1693311180096" duration="4599000" />
       <workItem from="1693397640877" duration="6109000" />
       <workItem from="1693483881894" duration="7233000" />
-      <workItem from="1697458081588" duration="2459000" />
+      <workItem from="1697458081588" duration="2842000" />
+      <workItem from="1697544079289" duration="2998000" />
     </task>
     <servers />
   </component>
